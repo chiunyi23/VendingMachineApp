@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginSucess">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You are now logged in"
+        android:layout_centerInParent="true"
+        android:text="@string/login_message"
         android:textColor="@android:color/black"
-        android:textSize="28sp"
-        android:layout_centerInParent="true"/>
+        android:textSize="28sp" />
 
 </RelativeLayout>
